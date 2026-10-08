@@ -1,3 +1,8 @@
 {
-  "item.mmoddinglearning.bismuth": "Bismuth"
+  "item.mmoddinglearning.bismuth": "Bismuth",
+  "item.mmoddinglearning.dark_matter": "Dark Matter",
+  "item.mmoddinglearning.raw_dark_matter": "Raw Dark Matter",
+
+  "block.mmoddinglearning.bismuth_block": "Block of Bismuth",
+  "block.mmoddinglearning.dark_matter_block": "Block of Dark Matter"
 }

@@ -12,6 +12,12 @@ public class ModItems {
     public static final DeferredItem<Item> BISMUTH = ITEMS.register("bismuth",
             () -> new Item(new Item.Properties()));
 
+    public static final DeferredItem<Item> DARK_MATTER = ITEMS.register("dark_matter",
+            () -> new Item(new Item.Properties()));
+
+    public static final DeferredItem<Item> RAW_DARK_MATTER = ITEMS.register("raw_dark_matter",
+            () -> new Item(new Item.Properties()));
+
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }
