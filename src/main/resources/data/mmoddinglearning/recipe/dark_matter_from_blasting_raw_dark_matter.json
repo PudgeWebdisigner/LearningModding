@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.25,
+  "group": "bismuth",
+  "ingredient": {
+    "item": "mmoddinglearning:raw_dark_matter"
+  },
+  "result": {
+    "count": 1,
+    "id": "mmoddinglearning:dark_matter"
+  }
+}

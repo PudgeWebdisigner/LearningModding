@@ -1,6 +1,7 @@
 package net.maksimka.mmoddinglearning;
 
 import net.maksimka.mmoddinglearning.block.ModBlocks;
+import net.maksimka.mmoddinglearning.item.ModCreativeModeTabs;
 import net.maksimka.mmoddinglearning.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -36,6 +37,8 @@ public class LearningMModding {
         // Do not add this line if there are no @SubscribeEvent-annotated functions in this class, like onServerStarting() below.
         NeoForge.EVENT_BUS.register(this);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -61,6 +64,7 @@ public class LearningMModding {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.BISMUTH_BLOCK);
             event.accept(ModBlocks.DARK_MATTER_BLOCK);
+            event.accept(ModBlocks.DARK_MATTER_ORE);
         }
     }
 

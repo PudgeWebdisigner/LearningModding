@@ -4,5 +4,8 @@
   "item.mmoddinglearning.raw_dark_matter": "Raw Dark Matter",
 
   "block.mmoddinglearning.bismuth_block": "Block of Bismuth",
-  "block.mmoddinglearning.dark_matter_block": "Block of Dark Matter"
+  "block.mmoddinglearning.dark_matter_block": "Block of Dark Matter",
+  "block.mmoddinglearning.dark_matter_ore": "Dark Matter Ore",
+
+  "creativetab.mmoddinglearning.bismuth_items": "Bismuth Learning Mod"
 }
